@@ -7,5 +7,16 @@
 - **Others :** Git, Notion, Miro, Slack, Postman, DBeaver, etc.
 
 ## 🔗 Links
-- [Blog](https://romantech.net)
-- [TIL](https://bit.ly/3aVlTfm)
+
+<div>
+    <a href="https://bit.ly/3aVlTfm">
+        <img 
+            src="https://img.shields.io/badge/Dev TIL-lightgray?style=for-the-badge&logo=notion&logoColor=white&link=https://bit.ly/3aVlTfm/"
+            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
+    </a>   
+    <a href="https://romantech.net">
+        <img 
+            src="https://img.shields.io/badge/Blog-yellow?style=for-the-badge&logo=blogger&logoColor=white&link=https://romantech.net/"
+            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
+    </a>
+</div>
