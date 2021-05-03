@@ -8,7 +8,7 @@
 
 ## 🔗 Links
 
-<div>
+<div aline="center">
     <a href="https://bit.ly/3aVlTfm">
         <img 
             src="https://img.shields.io/badge/Dev TIL-lightgray?style=for-the-badge&logo=notion&logoColor=white&link=https://bit.ly/3aVlTfm/"
@@ -17,6 +17,11 @@
     <a href="https://romantech.net">
         <img 
             src="https://img.shields.io/badge/Blog-yellow?style=for-the-badge&logo=blogger&logoColor=white&link=https://romantech.net/"
+            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
+    </a>  
+    <a href="mailto:johan@romantech.net">
+        <img 
+            src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:johan@romantech.net"
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
     </a>
 </div>
