@@ -9,7 +9,7 @@
 ## 🔗 Links
 
 <div>
-    <a href="https://bit.ly/3aVlTfm">
+    <a href="https://bit.ly/3FaJKEF">
         <img 
             src="https://img.shields.io/badge/Dev TIL-lightgray?style=for-the-badge&logo=notion&logoColor=white&link=https://bit.ly/3aVlTfm"
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
