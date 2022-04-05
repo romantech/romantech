@@ -2,7 +2,7 @@
 
 ## 🛠 Stacks
 - **Languages :** Javascript, Typescript, HTML, CSS
-- **Front-End :** React / Hooks, Redux, Styled-Components
+- **Front-End :** React, Redux, Styled-Components, Tailwind CSS
 - **Back-End :** Node.js, Express, MySQL, Sequelize
 - **Others :** Git, Notion, Miro, Slack, Postman, DBeaver, etc.
 
