@@ -2,16 +2,16 @@
 
 ## 🛠 Stacks
 - **Languages :** Javascript, Typescript, HTML, CSS
-- **Front-End :** React, Redux, Styled-Components, Tailwind CSS
-- **Back-End :** Node.js, Express, MySQL, Sequelize
-- **Others :** Git, Notion, Miro, Slack, Postman, DBeaver, etc.
+- **Frontend :** React, Next.js, Redux, React Query, Tailwind CSS, Styled-Components
+- **Backend :** Node.js, Express, MySQL, Sequelize
+- **Tools :** WebStorm, Git, Fork, Notion, Miro, Slack, Postman, DBeaver, etc.
 
 ## 🔗 Links
 
 <div>
     <a href="https://bit.ly/3FaJKEF">
         <img 
-            src="https://img.shields.io/badge/Dev TIL-lightgray?style=for-the-badge&logo=notion&logoColor=white&link=https://bit.ly/3aVlTfm"
+            src="https://img.shields.io/badge/Dev Log-lightgray?style=for-the-badge&logo=notion&logoColor=white&link=https://bit.ly/3aVlTfm"
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
     </a>   
     <a href="https://romantech.net">
