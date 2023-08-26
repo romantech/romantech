@@ -3,8 +3,8 @@
 ## 🛠 Stacks
 - **Languages :** Javascript, Typescript, HTML, CSS
 - **Frontend :** React, Next.js, Redux, React Query, Tailwind CSS, Styled-Components
-- **Backend :** Node.js, Express, MySQL, Sequelize
-- **Tools :** WebStorm, Git, Fork, Notion, Miro, Slack, Postman, DBeaver, etc.
+- **Backend (Some Experience) :** Node.js, Express, MySQL, MongoDB, Redis 
+- **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 🔗 Links
 
