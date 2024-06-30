@@ -1,0 +1,47 @@
+name: RSS to README
+
+on:
+  schedule:
+    - cron: '0 */1 * * *' # 매 시간 정각에 실행
+  push:
+    branches:
+      - main # 워크플로우가 실행될 브런치
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    env:
+      # GitHub Actions 에서 기본적으로 제공하는 환경 변수
+      # GitHub Actions 실행 환경에서 자동으로 설정되며, 저장소에 대한 읽기/쓰기 권한을 가짐
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run update script
+        run: pnpm rss-to-readme # 업데이트 스크립트 실행
+
+      - name: Commit README
+        run: |
+          git config --local user.name 'romantech'
+          git config --local user.email 'johan@romantech.net'
+          # Git 저장소에 변경사항이 있을 때만 명령어 실행 
+          if [ -n "$(git status --porcelain)" ]; then 
+            git add README.md
+            git commit -m 'Update README with latest blog posts [auto-generated]'
+            git push
+          else
+            echo "No changes to commit"
+          fi

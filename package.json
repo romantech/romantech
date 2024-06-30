@@ -1,0 +1,17 @@
+{
+	"name": "romantech",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"rss-to-readme": "node rss-to-readme.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"rss-parser": "^3.13.0"
+	}
+}
