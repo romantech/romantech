@@ -11,10 +11,11 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-  env:
-    # GitHub Actions 에서 자동으로 설정하는 환경 변수. 저장소에 대한 읽기/쓰기 권한을 가짐.
-    # 별도로 명시하지 않아도 기본적으로 제공됨.
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    env:
+      # GitHub Actions 에서 자동으로 설정하는 환경 변수. 저장소에 대한 읽기/쓰기 권한을 가짐.
+      # 별도로 명시하지 않아도 기본적으로 제공됨.
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
