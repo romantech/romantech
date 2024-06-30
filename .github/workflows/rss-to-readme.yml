@@ -6,14 +6,15 @@ on:
   push:
     branches:
       - main # 워크플로우가 실행될 브런치
+  workflow_dispatch: # 수동 트리거
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    env:
-      # GitHub Actions 에서 기본적으로 제공하는 환경 변수
-      # GitHub Actions 실행 환경에서 자동으로 설정되며, 저장소에 대한 읽기/쓰기 권한을 가짐
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  env:
+    # GitHub Actions 에서 자동으로 설정하는 환경 변수. 저장소에 대한 읽기/쓰기 권한을 가짐.
+    # 별도로 명시하지 않아도 기본적으로 제공됨.
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
