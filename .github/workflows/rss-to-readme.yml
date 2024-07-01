@@ -2,7 +2,7 @@ name: RSS to README
 
 on:
   schedule:
-    - cron: '0 */1 * * *' # 매 시간 정각에 실행
+    - cron: '0 */1 * * *' # 매 시간 정각에 실행 (UTC)
   push:
     branches:
       - main # 지정한 브랜치에 push 할 때 워크플로우 실행
@@ -47,7 +47,7 @@ jobs:
           # Git 저장소에 변경사항이 있을 때만 명령어 실행
           if [ -n "$(git status --porcelain)" ]; then
             git add README.md
-            git commit -m "Update README with latest blog posts [auto-generated]" -m "Generated at: $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Update README with latest blog posts [auto-generated]" -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push
           else
             echo "No changes to commit"
