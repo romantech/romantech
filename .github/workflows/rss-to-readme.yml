@@ -34,7 +34,7 @@ jobs:
           node-version: lts/*
 
       - uses: pnpm/action-setup@v4
-        name: Install pnpm
+        name: Install pnpm and dependencies
         with:
           version: latest
           run_install: true
@@ -47,8 +47,7 @@ jobs:
           # Git 저장소에 변경사항이 있을 때만 명령어 실행
           if [ -n "$(git status --porcelain)" ]; then
             git add README.md
-            git diff 
-            git commit -m "Update README with latest articles [auto-generated]" -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git commit -S -m "Update README with latest articles [auto-generated]" -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push
           else
             echo "No changes to commit"
