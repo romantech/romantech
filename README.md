@@ -17,6 +17,13 @@
 - **Backend (Some Experience) :** Node.js, Express, MySQL, MongoDB, Redis
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
+## 📝 Articles
+- [[DevTools] ESLint 9 Flat Config + Prettier 설정 (TypeScript, React)](https://romantech.net/1286)
+- [[DevTools] nvm보다 40배 빠른 노드 버전 관리 도구 &mdash; fnm](https://romantech.net/1285)
+- [[DevTools] Prettier 주요 포맷팅 옵션과 추천 설정](https://romantech.net/1284)
+- [기술 봉건주의 Techno Feudalis](https://romantech.net/1283)
+- [[시놀로지 Nas] 포트 개방 없이 원격에서 나스 SMB 접속하기 - Tailscale](https://romantech.net/1282)
+
 ## 🔗 Links
 
 [![Dev Log](https://img.shields.io/badge/Dev%20Log-lightgray?style=for-the-badge&logo=notion&logoColor=white)](https://bit.ly/3FaJKEF)
