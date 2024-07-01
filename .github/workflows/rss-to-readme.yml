@@ -25,7 +25,7 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
           git_committer_name: GitHub Action Bot
-          git_committer_email: github-action-bot@example.com
+          git_committer_email: johan@romantech.net
           trust_level: 5 # Ultimate
 
       - name: Install Node.js
