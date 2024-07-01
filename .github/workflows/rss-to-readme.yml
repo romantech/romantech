@@ -11,11 +11,7 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
-    env:
-      # GitHub Actions 에서 자동으로 설정하는 환경 변수. 저장소에 대한 읽기/쓰기 권한을 가짐.
-      # 별도로 명시하지 않아도 기본적으로 제공됨.
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    timeout-minutes: 30 # 워크플로우가 30분 내에 완료되지 않으면 자동 종료
 
     steps:
       - name: Checkout repository
@@ -28,7 +24,9 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
-          trust_level: 5
+          git_committer_name: ColorFilter
+          git_committer_email: johan@romantech.net
+          trust_level: 5 # Ultimate
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -46,8 +44,6 @@ jobs:
 
       - name: Commit README
         run: |
-          git config --local user.name 'ColorFilter'
-          git config --local user.email 'johan@romantech.net'
           # Git 저장소에 변경사항이 있을 때만 명령어 실행
           if [ -n "$(git status --porcelain)" ]; then
             git add README.md
