@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main # 워크플로우가 실행될 브런치
-  workflow_dispatch: # 수동 트리거
+  workflow_dispatch: # 수동 트리거 기능 활성
 
 jobs:
   update-readme:
@@ -20,6 +20,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          trust_level: 5
 
       - name: Install Node.js
         uses: actions/setup-node@v4
