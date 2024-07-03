@@ -15,14 +15,7 @@ const POSTS_REGEX = new RegExp(`${POSTS_HEADER}[\\s\\S]*?(?=\\n${HEADER_PREFIX}|
 
 const parser = new Parser({ headers: RSS_HEADERS });
 
-const getRSSFeed = async (url) => {
-	try {
-		return await parser.parseURL(url);
-	} catch (error) {
-		console.error('Error fetching RSS feed:', error);
-		throw error;
-	}
-};
+const getRSSFeed = async (url) => await parser.parseURL(url);
 
 const convertToHTTPS = (url) => {
 	if (url.startsWith('http://')) return url.replace('http://', 'https://');
@@ -51,22 +44,25 @@ const updateReadme = (content, newPosts) => {
 };
 
 const refreshReadme = async () => {
-	try {
-		const readme = readFileSync(README_PATH, 'utf8');
-		const feed = await getRSSFeed(RSS_URL);
-		const newPosts = createPostsMarkdown(feed.items, MAX_POSTS);
+	const readme = readFileSync(README_PATH, 'utf8');
+	const feed = await getRSSFeed(RSS_URL);
+	const newPosts = createPostsMarkdown(feed.items, MAX_POSTS);
 
-		const updatedReadme = updateReadme(readme, newPosts);
+	const updatedReadme = updateReadme(readme, newPosts);
 
-		if (updatedReadme !== readme) {
-			writeFileSync(README_PATH, updatedReadme, 'utf8');
-			console.log('README.md updated successfully');
-		} else {
-			console.log('No new blog posts. README.md was not updated.');
-		}
-	} catch (error) {
-		console.error('Error updating README.md:', error);
+	if (updatedReadme !== readme) {
+		writeFileSync(README_PATH, updatedReadme, 'utf8');
+		console.log('README.md updated successfully');
+	} else {
+		console.log('No new blog posts. README.md was not updated.');
 	}
 };
 
-refreshReadme();
+try {
+	await refreshReadme();
+} catch (error) {
+	console.error('Error during the refresh process:', error);
+	process.exit(1);
+} finally {
+	process.exit(0);
+}
