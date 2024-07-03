@@ -6,10 +6,12 @@ const README_PATH = './README.md';
 const RSS_URL = 'https://romantech.net/rss';
 const RSS_HEADERS = { Accept: 'application/rss+xml, application/xml, text/xml; q=0.1' };
 
-const MAX_POSTS = 5; // Number of latest posts to display
-const LINKS_HEADER = '## 🔗 Links';
-const POSTS_HEADER = '## 📝 Articles';
-const POSTS_REGEX = new RegExp(`${POSTS_HEADER}[\s\S]*?(?=\n##|\n$)`);
+const MAX_POSTS = 5; // 표시할 포스팅 개수
+const HEADER_PREFIX = '##';
+const LINKS_HEADER = `${HEADER_PREFIX} 🔗 Links`;
+const POSTS_HEADER = `${HEADER_PREFIX} 📝 Articles`;
+// POSTS_HEADER 로 시작해서 다음 HEADER_PREFIX 또는 텍스트 끝까지의 모든 문자 매칭
+const POSTS_REGEX = new RegExp(`${POSTS_HEADER}[\\s\\S]*?(?=\\n${HEADER_PREFIX}|\\n$)`);
 
 const parser = new Parser({ headers: RSS_HEADERS });
 
@@ -22,14 +24,21 @@ const getRSSFeed = async (url) => {
 	}
 };
 
+const convertToHTTPS = (url) => {
+	if (url.startsWith('http://')) return url.replace('http://', 'https://');
+	return url;
+};
+
 const createPostsMarkdown = (items, count) => {
-	const posts = items.slice(0, count).map(({ title, link }) => `- [${title}](${link})`);
+	const posts = items.slice(0, count).map(({ title, link }) => {
+		return `- [${title}](${convertToHTTPS(link)})`;
+	});
 	return [POSTS_HEADER, ...posts].join('\n');
 };
 
 const updateReadme = (content, newPosts) => {
 	const hasPosts = content.includes(POSTS_HEADER);
-	if (hasPosts) return content.replace(POSTS_REGEX, newPosts);
+	if (hasPosts) return content.replace(POSTS_REGEX, newPosts + '\n');
 
 	const linksIndex = content.indexOf(LINKS_HEADER);
 	// Links 헤더 있으면 Links 이전에 글 목록 삽입
