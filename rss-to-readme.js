@@ -3,13 +3,13 @@ import Parser from 'rss-parser';
 
 // Constants
 const README_PATH = './README.md';
-const RSS_URL = 'https://romantech.net/rss';
+const RSS_URL = 'https://romantech.net/rss'; // 블로그 RSS 주소
 const RSS_HEADERS = { Accept: 'application/rss+xml, application/xml, text/xml; q=0.1' };
 
 const MAX_POSTS = 5; // 표시할 포스팅 개수
-const HEADER_PREFIX = '##';
-const LINKS_HEADER = `${HEADER_PREFIX} 🔗 Links`;
-const POSTS_HEADER = `${HEADER_PREFIX} 📝 Articles`;
+const HEADER_PREFIX = '##'; // 헤더 레벨
+const LINKS_HEADER = `${HEADER_PREFIX} 🔗 Links`; // 링크 목록 헤더 이름
+const POSTS_HEADER = `${HEADER_PREFIX} 📝 Articles`; // 포스팅 목록 헤더 이름
 // POSTS_HEADER 로 시작해서 다음 HEADER_PREFIX 또는 텍스트 끝까지의 모든 문자 매칭
 const POSTS_REGEX = new RegExp(`${POSTS_HEADER}[\\s\\S]*?(?=\\n${HEADER_PREFIX}|\\n$)`);
 
@@ -34,12 +34,12 @@ const updateReadme = (content, newPosts) => {
 	if (hasPosts) return content.replace(POSTS_REGEX, newPosts + '\n');
 
 	const linksIndex = content.indexOf(LINKS_HEADER);
-	// Links 헤더 있으면 Links 이전에 글 목록 삽입
+	// LINKS_HEADER 헤더 있으면 Links 이전에 포스팅 목록 삽입
 	if (linksIndex !== -1) {
 		return [content.slice(0, linksIndex), newPosts + '\n\n', content.slice(linksIndex)].join('');
 	}
 
-	// Links 헤더 없으면 마지막에 글 목록 삽입
+	// LINKS_HEADER 헤더 없으면 마지막에 포스팅 목록 삽입
 	return content + '\n' + newPosts;
 };
 
