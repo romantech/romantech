@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[JS] 자바스크립트 정규식으로 천 단위 구분자 추가하기 (단어 경계, 전방 탐색, 부정 전방 탐색)](https://romantech.net/1290)
 - [[JS] 자바스크립트 reduce() 메서드 활용 예시 모음](https://romantech.net/1289)
 - [[JS] 자바스크립트 Set 객체의 집합 연산 메서드 (교집합, 합집합 등)](https://romantech.net/1288)
 - [[Git] RSS 글 발행 시(티스토리 등) GitHub 자동 커밋 방법](https://romantech.net/1287)
 - [[DevTools] ESLint 9 Flat Config + Prettier 설정 (TypeScript, React)](https://romantech.net/1286)
-- [[DevTools] nvm보다 40배 빠른 노드 버전 관리 도구 &mdash; fnm](https://romantech.net/1285)
 
 ## 🔗 Links
 
