@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[TS] 타입스크립트 브랜디드 타입](https://romantech.net/1297)
 - [도커(Docker)와 쿠버네티스(Kubernetes) 기본 개념](https://romantech.net/1296)
 - [[Flutter] 플러터 개발 환경 구축 for macOS](https://romantech.net/1295)
 - [[Dart] 자바스크립트 개발자의 다트 학습 - Part 2](https://romantech.net/1294)
 - [[Dart] 자바스크립트 개발자의 다트 학습 - Part 1](https://romantech.net/1293)
-- [[Algorithm] 프로그래머스 - 피로도 / 백트래킹으로 모든 부분집합 찾기](https://romantech.net/1292)
 
 ## 🔗 Links
 
