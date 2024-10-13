@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[Flutter] 플러터 기초 내용 정리 - Part 2](https://romantech.net/1299)
 - [[Flutter] 플러터 기초 내용 정리 - Part 1](https://romantech.net/1298)
 - [[TS] 타입스크립트 브랜디드 타입](https://romantech.net/1297)
 - [도커(Docker)와 쿠버네티스(Kubernetes) 기본 개념](https://romantech.net/1296)
 - [[Flutter] 플러터 개발 환경 구축 for macOS](https://romantech.net/1295)
-- [[Dart] 자바스크립트 개발자의 다트 학습 - Part 2](https://romantech.net/1294)
 
 ## 🔗 Links
 
