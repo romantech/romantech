@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[Dev] 시맨틱 버저닝 Semantic Versioning](https://romantech.net/1305)
 - [[React] 리액트의 올바른 useEffect 사용팁](https://romantech.net/1304)
 - [[JS] 자바스크립트 코드 최적화 기법 모음](https://romantech.net/1303)
 - [[시놀로지 Nas] 나스 메인 하드디스크 교체하기](https://romantech.net/1302)
 - [[Algorithm] 슬라이딩 윈도우 Sliding Window 알고리즘 톺아보기](https://romantech.net/1301)
-- [[React] 리액트 코드를 개선할 수 있는 4가지 팁](https://romantech.net/1300)
 
 ## 🔗 Links
 
