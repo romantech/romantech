@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[Next.js] Dynamic Routes 다이나믹 라우트](https://romantech.net/1308)
 - [[macOS] 맥에서 잘라내기 단축키 사용하기 - Command X](https://romantech.net/1307)
 - [[Next.js] App Router 공식 튜토리얼 톺아보기](https://romantech.net/1306)
 - [[Dev] 시맨틱 버저닝 Semantic Versioning](https://romantech.net/1305)
 - [[React] 리액트의 올바른 useEffect 사용팁](https://romantech.net/1304)
-- [[JS] 자바스크립트 코드 최적화 기법 모음](https://romantech.net/1303)
 
 ## 🔗 Links
 
