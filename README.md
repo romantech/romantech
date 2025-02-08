@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[React] 리액트 19 업데이트 내용 톺아보기](https://romantech.net/1311)
 - [[크롬 확장] 페이지 목차를 팝업으로 표시해주는 - Smart TOC](https://romantech.net/1310)
 - [Cloudflare DNS 레코드 설정 방법 (티스토리, Vercel 등 오류 해결)](https://romantech.net/1309)
 - [[Next.js] Dynamic Routes 다이나믹 라우트](https://romantech.net/1308)
 - [[macOS] 맥에서 잘라내기 단축키 사용하기 - Command X](https://romantech.net/1307)
-- [[Next.js] App Router 공식 튜토리얼 톺아보기](https://romantech.net/1306)
 
 ## 🔗 Links
 
