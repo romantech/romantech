@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[JS] 자바스크립트 랜덤 색상(Random Color) 생성하기](https://romantech.net/1314)
 - [[CSS] 쌓임 맥락 Stacking Context](https://romantech.net/1313)
 - [[Nas] 시놀로지 나스에서 Cloudflare DDNS 사용하기 (도커 방식)](https://romantech.net/1312)
 - [[React] 리액트 19 업데이트 내용 톺아보기](https://romantech.net/1311)
 - [[크롬 확장] 페이지 목차를 팝업으로 표시해주는 - Smart TOC](https://romantech.net/1310)
-- [Cloudflare DNS 레코드 설정 방법 (티스토리, Vercel 등 오류 해결)](https://romantech.net/1309)
 
 ## 🔗 Links
 
