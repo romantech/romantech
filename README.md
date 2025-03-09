@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[UI] Shadcn DropdownMenu에서 Dialog 자동 닫힘 문제 해결](https://romantech.net/1318)
 - [검색엔진 바이두를 위협하는 SNS 샤오홍슈(RedNote, 小红书)](https://romantech.net/1317)
 - [[CSS] :focus, :focus-visible 차이점](https://romantech.net/1315)
 - [[JS] 자바스크립트 랜덤 색상(Random Color) 생성하기](https://romantech.net/1314)
 - [[CSS] 쌓임 맥락 Stacking Context](https://romantech.net/1313)
-- [[Nas] 시놀로지 나스에서 Cloudflare DDNS 사용하기 (도커 방식)](https://romantech.net/1312)
 
 ## 🔗 Links
 
