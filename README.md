@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [Cloudflare를 활용한 무료 브랜디드 링크(단축 URL) 만들기](https://romantech.net/1320)
 - [[시놀로지 나스] 와일드카드 인증서 적용하기(acme.sh) / Plex 인증서 설정](https://romantech.net/1319)
 - [[UI] Shadcn DropdownMenu에서 Dialog 자동 닫힘 문제 해결](https://romantech.net/1318)
 - [검색엔진 바이두를 위협하는 SNS 샤오홍슈(RedNote, 小红书)](https://romantech.net/1317)
 - [[CSS] :focus, :focus-visible 차이점](https://romantech.net/1315)
-- [[JS] 자바스크립트 랜덤 색상(Random Color) 생성하기](https://romantech.net/1314)
 
 ## 🔗 Links
 
