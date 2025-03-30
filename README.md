@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[Next.js] API 라우트 보호하기 - Unkey](https://romantech.net/1322)
 - [[Next.js] dnd-kit을 활용한 칸반(Kanban) 보드 드래그 앤 드롭 구현](https://romantech.net/1321)
 - [Cloudflare를 활용한 무료 브랜디드 링크(단축 URL) 만들기](https://romantech.net/1320)
 - [[시놀로지 나스] 와일드카드 인증서 적용하기(acme.sh) / Plex 인증서 설정](https://romantech.net/1319)
 - [[UI] Shadcn DropdownMenu에서 Dialog 자동 닫힘 문제 해결](https://romantech.net/1318)
-- [검색엔진 바이두를 위협하는 SNS 샤오홍슈(RedNote, 小红书)](https://romantech.net/1317)
 
 ## 🔗 Links
 
