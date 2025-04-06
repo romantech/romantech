@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [무료 이미지 호스팅 구축하기 (Cloudflare R2 + PicGo + WebP Cloud)](https://romantech.net/1325)
 - [[HTTP] Cache-Control 헤더](https://romantech.net/1324)
 - [Perplexity Pro 1년 무료로 사용하기 ($200 절약)](https://romantech.net/1323)
 - [[Next.js] API 라우트 보호하기 - Unkey](https://romantech.net/1322)
 - [[Next.js] dnd-kit을 활용한 칸반(Kanban) 보드 드래그 앤 드롭 구현](https://romantech.net/1321)
-- [Cloudflare를 활용한 무료 브랜디드 링크(단축 URL) 만들기](https://romantech.net/1320)
 
 ## 🔗 Links
 
