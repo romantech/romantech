@@ -26,6 +26,6 @@
 
 ## 🔗 Links
 
-[![Dev Log](https://img.shields.io/badge/Dev%20Log-lightgray?style=for-the-badge&logo=notion&logoColor=white)](https://bit.ly/3FaJKEF)
+[![Dev Log](https://img.shields.io/badge/Dev%20Log-lightgray?style=for-the-badge&logo=notion&logoColor=white)](https://link.romantech.net/til)
 [![Blog](https://img.shields.io/badge/Blog-yellow?style=for-the-badge&logo=rss&logoColor=white)](https://romantech.net)
 [![Gmail](https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johan@romantech.net)
