@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[HTTP] ETag 엔티티 태그 헤더](https://romantech.net/1327)
 - [[JS] 자바스크립트 6줄로 이미지 비교 슬라이더 만들기](https://romantech.net/1326)
 - [무료 이미지 호스팅 구축하기 (Cloudflare R2 + PicGo + WebP Cloud)](https://romantech.net/1325)
 - [[HTTP] Cache-Control 헤더](https://romantech.net/1324)
 - [Perplexity Pro 1년 무료로 사용하기 ($200 절약)](https://romantech.net/1323)
-- [[Next.js] API 라우트 보호하기 - Unkey](https://romantech.net/1322)
 
 ## 🔗 Links
 
