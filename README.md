@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[CS] 베지에 곡선 원리 이해하기 feat. 카스텔조 알고리즘](https://romantech.net/1330)
 - [[JS] async 함수가 await를 만났을 때 동작 흐름](https://romantech.net/1329)
 - [[CSS] grid-row 동작 방식 살펴보기](https://romantech.net/1328)
 - [[HTTP] ETag 엔티티 태그 헤더](https://romantech.net/1327)
 - [[JS] 자바스크립트 6줄로 이미지 비교 슬라이더 만들기](https://romantech.net/1326)
-- [무료 이미지 호스팅 구축하기 (Cloudflare R2 + PicGo + WebP Cloud)](https://romantech.net/1325)
 
 ## 🔗 Links
 
