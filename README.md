@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [작은 크기의 소음없는 최고의 가성비 UPS - WalleCube](https://romantech.net/1334)
 - [홍콩 스테이블코인 발행과 디지털 금융 경쟁 구도](https://romantech.net/1333)
 - [[JS] 두 점 사이의 거리 계산하기](https://romantech.net/1332)
 - [AdGuard 사용 시 티스토리 gif 이미지 안나오는 문제 해결](https://romantech.net/1331)
 - [[CS] 베지에 곡선 원리 이해하기 feat. 카스텔조 알고리즘](https://romantech.net/1330)
-- [[JS] async 함수가 await를 만났을 때 동작 흐름](https://romantech.net/1329)
 
 ## 🔗 Links
 
