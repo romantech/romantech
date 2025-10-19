@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[OS] 하드 링크, 심볼릭 링크 차이점](https://romantech.net/1337)
 - [[시놀로지 나스] NAS에 서브넷 라우터 구성하기 (Tailscale 활용)](https://romantech.net/1336)
 - [[시놀로지 나스] NAS에 설치한 Tailscale 자동 업데이트 설정 방법](https://romantech.net/1335)
 - [작은 크기의 소음없는 최고의 가성비 UPS - WalleCube](https://romantech.net/1334)
 - [홍콩 스테이블코인 발행과 디지털 금융 경쟁 구도](https://romantech.net/1333)
-- [[JS] 두 점 사이의 거리 계산하기](https://romantech.net/1332)
 
 ## 🔗 Links
 
