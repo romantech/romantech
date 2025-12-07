@@ -2,7 +2,7 @@ name: RSS to README
 
 on:
   schedule:
-    - cron: '0 */1 * * *' # 매 시간 정각에 실행 (UTC)
+    - cron: '0 */3 * * *' # 매 시간 정각에 실행 (UTC)
   push:
     branches:
       - main # 지정한 브랜치에 push 할 때 워크플로우 실행
