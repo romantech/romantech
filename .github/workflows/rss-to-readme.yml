@@ -2,7 +2,7 @@ name: RSS to README
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # 매 시간 정각에 실행 (UTC)
+    - cron: '0 */3 * * *' # 3시간마다 정각에 실행 (UTC)
   push:
     branches:
       - main # 지정한 브랜치에 push 할 때 워크플로우 실행
@@ -40,6 +40,8 @@ jobs:
           run_install: true
 
       - name: Update README
+        env: 
+          NODE_TLS_REJECT_UNAUTHORIZED: '0' # SSL 인증서 유효기간 검증 무시 설정
         run: pnpm rss-to-readme # 업데이트 스크립트 실행
 
       - name: Commit and push if changed
