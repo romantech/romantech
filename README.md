@@ -18,7 +18,7 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
-- [[시놀로지 나스] macOS 26 타호 NAS 타임머신 백업 안되는 문제 해결](https://romantech.net/1338)
+- [[시놀로지 나스] macOS 26 타호 NAS 타임머신 백업 안되는 문제 해결하기](https://romantech.net/1338)
 - [[OS] 하드 링크, 심볼릭 링크 차이점](https://romantech.net/1337)
 - [[시놀로지 나스] NAS에 서브넷 라우터 구성하기 (Tailscale 활용)](https://romantech.net/1336)
 - [[시놀로지 나스] NAS에 설치한 Tailscale 자동 업데이트 설정 방법](https://romantech.net/1335)
