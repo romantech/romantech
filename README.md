@@ -18,7 +18,7 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
-- [LG U+ 놓치면 손해 보는 무료 부가서비스, 꿀팁 모음](https://romantech.net/1339)
+- [LG U+ 가입 후 꼭 챙겨야 할 무료 부가서비스, 꿀팁 모음](https://romantech.net/1339)
 - [[시놀로지 나스] macOS 26 타호 NAS 타임머신 백업 안되는 문제 해결하기](https://romantech.net/1338)
 - [[OS] 하드 링크, 심볼릭 링크 차이점](https://romantech.net/1337)
 - [[시놀로지 나스] NAS에 서브넷 라우터 구성하기 (Tailscale 활용)](https://romantech.net/1336)
