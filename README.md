@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[미립자팁] 맞춤 설정으로 ChatGPT 답변 간결하고 전문적으로 만들기](https://romantech.net/1342)
 - [[macOS] 찌꺼기까지 싹다 지워주는 무료 언인스톨러 - PearCleaner](https://romantech.net/1341)
 - [[macOS] 구글 Gemini 제미나이 Dock에 넣고 앱처럼 사용하기](https://romantech.net/1340)
 - [LG U+ 가입 후 꼭 챙겨야 할 무료 부가서비스, 꿀팁 모음](https://romantech.net/1339)
 - [[시놀로지 나스] macOS 26 타호 NAS 타임머신 백업 안되는 문제 해결하기](https://romantech.net/1338)
-- [[OS] 하드 링크, 심볼릭 링크 차이점](https://romantech.net/1337)
 
 ## 🔗 Links
 
