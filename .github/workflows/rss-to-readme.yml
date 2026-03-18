@@ -45,14 +45,19 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Update README
+        id: update_readme
         run: pnpm rss-to-readme
 
       - name: Commit and push if README changed
         run: |
           if ! git diff --quiet -- README.md; then
             git add README.md
-            git commit -S -m "Update README with latest articles [auto-generated]" \
-              -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git commit -S \
+              -m "Update README with ${{ steps.update_readme.outputs.added_count }} new article(s) [auto-generated]" \
+              -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+          Newly added posts:
+          ${{ steps.update_readme.outputs.added_links }}"
             git push origin HEAD:${GITHUB_REF_NAME}
           else
             echo "No README changes to commit"
