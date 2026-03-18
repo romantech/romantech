@@ -1,17 +1,30 @@
 {
-	"name": "romantech",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"type": "module",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"rss-to-readme": "node rss-to-readme.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"rss-parser": "^3.13.0"
-	}
+  "name": "romantech",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub profile repository for Romantech",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "rss-to-readme": "node rss-to-readme.mjs"
+  },
+  "keywords": [
+    "github-profile",
+    "readme",
+    "rss",
+    "automation",
+    "blog"
+  ],
+  "author": "romantech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romantech/romantech.git"
+  },
+  "homepage": "https://github.com/romantech/romantech",
+  "bugs": {
+    "url": "https://github.com/romantech/romantech/issues"
+  },
+  "dependencies": {
+    "@extractus/feed-extractor": "^7.1.7"
+  }
 }
