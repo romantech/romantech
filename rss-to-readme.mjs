@@ -59,20 +59,22 @@ const updateReadme = (content, newPosts) => {
   return `${content.replace(/\s*$/, '\n\n')}${newPosts}\n`;
 };
 
-const setGitHubOutputs = async (addedTitles) => {
+const setGitHubOutputs = async (addedEntries) => {
   const githubOutput = process.env.GITHUB_OUTPUT;
 
   if (!githubOutput) {
     return;
   }
 
-  const addedCount = String(addedTitles.length);
-  const addedTitlesBody =
-    addedTitles.length > 0 ? addedTitles.map((title) => `- ${title}`).join('\n') : '- None';
+  const addedCount = String(addedEntries.length);
+  const addedLinksBody =
+    addedEntries.length > 0
+      ? addedEntries.map(({ link }) => `- ${convertToHTTPS(link)}`).join('\n')
+      : '- None';
 
   await writeFile(
     githubOutput,
-    [`added_count=${addedCount}`, 'added_titles<<EOF', addedTitlesBody, 'EOF'].join('\n') + '\n',
+    [`added_count=${addedCount}`, 'added_links<<EOF', addedLinksBody, 'EOF'].join('\n') + '\n',
     { encoding: 'utf8', flag: 'a' },
   );
 };
@@ -99,16 +101,16 @@ const refreshReadme = async () => {
   const updatedReadme = updateReadme(readme, newPosts);
 
   const nextEntries = validEntries.slice(0, MAX_POSTS);
-  const addedTitles = nextEntries
-    .filter(({ link }) => !previousLinks.includes(convertToHTTPS(link)))
-    .map(({ title }) => title);
+  const addedEntries = nextEntries.filter(
+    ({ link }) => !previousLinks.includes(convertToHTTPS(link)),
+  );
 
-  await setGitHubOutputs(addedTitles);
+  await setGitHubOutputs(addedEntries);
 
   if (updatedReadme !== readme) {
     await writeFile(README_PATH, updatedReadme, 'utf8');
     console.log('README.md updated successfully');
-    console.log(`Newly added posts: ${addedTitles.length}`);
+    console.log(`Newly added posts: ${addedEntries.length}`);
   } else {
     console.log('No new blog posts. README.md was not updated.');
   }

@@ -57,7 +57,7 @@ jobs:
               -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
           Newly added posts:
-          ${{ steps.update_readme.outputs.added_titles }}"
+          ${{ steps.update_readme.outputs.added_links }}"
             git push origin HEAD:${GITHUB_REF_NAME}
           else
             echo "No README changes to commit"
