@@ -22,6 +22,7 @@
 - [AI가 사람을 호출하기 시작했다](https://romantech.net/1348)
 - [중국 직구 아수스 공유기 TUF BE6500 한글 적용 방법](https://romantech.net/1347)
 - [[시놀로지 나스] Plex 재생 품질/연결 설정 가이드 (트랜스코딩 최소화)](https://romantech.net/1346)
+- [[macOS] Tailscale, AdGuard, NextDNS 충돌 없이 함께 쓰기](https://romantech.net/1345)
 
 ## 🔗 Links
 
