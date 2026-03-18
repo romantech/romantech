@@ -53,7 +53,7 @@ jobs:
           if ! git diff --quiet -- README.md; then
             git add README.md
             git commit -S \
-              -m "Update README with ${{ steps.update_readme.outputs.added_count }} new article(s) [auto-generated]" \
+              -m "chore(readme): add ${{ steps.update_readme.outputs.added_count }} new article(s) from RSS" \
               -m "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
           Newly added posts:
