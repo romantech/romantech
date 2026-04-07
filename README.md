@@ -18,7 +18,7 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
-- [티스토리 블로그에 목차(TOC) 추가하기](https://romantech.net/1352)
+- [티스토리 블로그에 자동 목차(TOC) 추가하기](https://romantech.net/1352)
 - [티스토리 블로그 본문에 앵커(Anchor) 링크 추가하기](https://romantech.net/1350)
 - [[크롬 확장] 워터마크 제거&middot;모델 고정 등 Gemini 더 편하게 쓰기 - Voyager](https://romantech.net/1349)
 - [AI가 사람을 호출하기 시작했다](https://romantech.net/1348)
