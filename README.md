@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [타이중에서 칭징농장 가는 방법: 버스 시간표&middot;관광 패스&middot;추천 코스 정리](https://romantech.net/1355)
 - [홍콩 번호 발급&middot;문자 수신&middot;ICCID 실명 인증 방법 (eSender)](https://romantech.net/1354)
 - [[CLI] 유용한 셸(Shell) 터미널 단축키/팁 모음](https://romantech.net/1353)
 - [티스토리 블로그에 자동 목차(TOC) 추가하기](https://romantech.net/1352)
 - [티스토리 블로그 본문에 앵커(Anchor) 링크 추가하기](https://romantech.net/1350)
-- [[크롬 확장] 워터마크 제거&middot;모델 고정 등 Gemini 더 편하게 쓰기 - Voyager](https://romantech.net/1349)
 
 ## 🔗 Links
 
