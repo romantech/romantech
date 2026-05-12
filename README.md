@@ -18,7 +18,7 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
-- [[n8n] 자동화 워크플로우 기본 개념과 실습](https://romantech.net/1357)
+- [[n8n] 워크플로우 자동화 입문: 핵심 개념 + 기초 실습](https://romantech.net/1357)
 - [[macOS] 예쁘고 직관적인 라디얼 스타일 앱 전환기 - Orbit](https://romantech.net/1356)
 - [타이중에서 칭징농장 가는 방법: 버스 시간표&middot;관광 패스&middot;추천 코스 정리](https://romantech.net/1355)
 - [홍콩 번호 발급&middot;문자 수신&middot;ICCID 실명 인증 방법 (eSender)](https://romantech.net/1354)
