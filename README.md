@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[n8n] 구글 드라이브 파일/폴더 정리 AI 에이전트 만들기](https://romantech.net/1361)
 - [[n8n] 유튜브 구독 채널 새 영상 이메일로 받아보기](https://romantech.net/1360)
 - [[n8n] 생일 알림 이메일 보내기](https://romantech.net/1359)
 - [[n8n] 웹사이트 모니터링 텔레그램 봇 만들기](https://romantech.net/1358)
 - [[n8n] 워크플로우 자동화 입문: 핵심 개념 + 기초 실습](https://romantech.net/1357)
-- [[macOS] 예쁘고 직관적인 라디얼 스타일 앱 전환기 - Orbit](https://romantech.net/1356)
 
 ## 🔗 Links
 
