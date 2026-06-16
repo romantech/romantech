@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [애플 WWDC 2026에서 시리(Siri)가 조용했던 이유](https://romantech.net/1369)
 - [[시놀로지 나스] Cloudflare Tunnel QUIC UDP 버퍼 경고 해결방법](https://romantech.net/1368)
 - [[시놀로지 나스] Split DNS 구성하기 - 로컬에서 Tailscale 없이 도메인 접속](https://romantech.net/1367)
 - [[시놀로지 나스] Tailscale 전용 NAS에서 파일/폴더 외부 공유하기](https://romantech.net/1366)
 - [[시놀로지 나스] n8n 셀프 호스팅 가이드 - PostgreSQL + Cloudflare Tunnel](https://romantech.net/1365)
-- [[n8n] 음식 사진으로 식단 기록하는 AI 텔레그램 봇 만들기](https://romantech.net/1364)
 
 ## 🔗 Links
 
