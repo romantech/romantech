@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[n8n] AI 기반 고객센터 자동화 워크플로우 만들기 (feat. 감정 분석)](https://romantech.net/1371)
 - [[시놀로지 나스] 올인원 도커 컨테이너 관리 도구 - Dockhand 설치 가이드](https://romantech.net/1370)
 - [애플 WWDC 2026에서 시리(Siri)가 조용했던 이유](https://romantech.net/1369)
 - [[시놀로지 나스] Cloudflare Tunnel QUIC UDP 버퍼 경고 해결방법](https://romantech.net/1368)
 - [[시놀로지 나스] Split DNS 구성하기 - 로컬에서 Tailscale 없이 도메인 접속](https://romantech.net/1367)
-- [[시놀로지 나스] Tailscale 전용 NAS에서 파일/폴더 외부 공유하기](https://romantech.net/1366)
 
 ## 🔗 Links
 
