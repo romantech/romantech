@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[시놀로지 나스] NAS에 zsh, oh-my-zsh, Entware 설치하기](https://romantech.net/1375)
 - [DSM 역방향 프록시 경유 시 ASUS 공유기 설정 화면 갱신 문제 해결](https://romantech.net/1374)
 - [무료 인터넷 속도 측정 서비스가 돈을 버는 방법](https://romantech.net/1373)
 - [[크롬 확장] 웹사이트 뒤에서 벌어지는 일을 보여주는 도구 - Iris](https://romantech.net/1372)
 - [[n8n] AI 기반 고객센터 자동화 워크플로우 만들기 (feat. 감정 분석)](https://romantech.net/1371)
-- [[시놀로지 나스] 올인원 도커 컨테이너 관리 도구 - Dockhand 설치 가이드](https://romantech.net/1370)
 
 ## 🔗 Links
 
