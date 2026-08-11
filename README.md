@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[macOS] USB-C 케이블 속도/충전 성능 확인하기 - WhatCable](https://romantech.net/1377)
 - [[iOS] Arr 스택(Sonarr/Radarr 등) 통합 관리 앱 - Helmarr](https://romantech.net/1376)
 - [[시놀로지 나스] NAS에 zsh, oh-my-zsh, Entware 설치하기](https://romantech.net/1375)
 - [DSM 역방향 프록시 경유 시 ASUS 공유기 설정 화면 갱신 문제 해결](https://romantech.net/1374)
 - [무료 인터넷 속도 측정 서비스가 돈을 버는 방법](https://romantech.net/1373)
-- [[크롬 확장] 웹사이트 뒤에서 벌어지는 일을 보여주는 도구 - Iris](https://romantech.net/1372)
 
 ## 🔗 Links
 
