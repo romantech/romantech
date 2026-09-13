@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[macOS] 카카오톡 등 같은 앱 2개 이상 동시에 실행하기 - ATBClone](https://romantech.net/1381)
 - [[macOS/Windows] AI 기반 파일명 자동 정리 앱 - NameQuick](https://romantech.net/1380)
 - [무계획이라 더 맛있었던 대만 타이난 먹부림 (맛집 기록)](https://romantech.net/1379)
 - [아리산 당일치기 자유여행 | 교통편&middot;트레킹 코스 총정리 feat. 삼림철도](https://romantech.net/1378)
 - [[macOS] USB-C 케이블 속도/충전 성능 확인하기 - WhatCable](https://romantech.net/1377)
-- [[iOS] Arr 스택(Sonarr/Radarr 등) 통합 관리 앱 - Helmarr](https://romantech.net/1376)
 
 ## 🔗 Links
 
