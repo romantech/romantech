@@ -18,11 +18,11 @@
 - **Tools :** WebStorm, Fork, Notion, FigJam, Paw, etc.
 
 ## 📝 Articles
+- [[macOS] 맥 창에 겨울 스웨터 입히기 - Window Sweaters](https://romantech.net/1385)
 - [AI 시대의 오피스는 초원으로 간다 - 우란차부](https://romantech.net/1384)
 - [AI 텍스트 워터마크는 어떻게 작동할까?](https://romantech.net/1383)
 - [꼭 알아야 할 생성형 AI의 세 가지 작동 원리](https://romantech.net/1382)
 - [[macOS] 카카오톡 등 같은 앱 2개 이상 동시에 실행하기 - ATBClone](https://romantech.net/1381)
-- [[macOS/Windows] AI 기반 파일명 자동 정리 앱 - NameQuick](https://romantech.net/1380)
 
 ## 🔗 Links
 
